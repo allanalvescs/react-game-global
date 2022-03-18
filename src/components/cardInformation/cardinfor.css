@@ -1,0 +1,30 @@
+.App-Card_Information h2 {
+  font-size: 4rem;
+  color: #00ffff;
+  font-weight: 500;
+  width: 260px;
+  text-align: left;
+}
+.App-Card_Information p {
+  color: #999999;
+  font-size: 1.6rem;
+  text-align: left;
+  line-height: 40px;
+}
+.App-Card_Information button {
+  background-color: #00ffff;
+  color: #000;
+  font-size: 1.1rem;
+  width: 175px;
+  height: 60px;
+  border-radius: 50px;
+  border: transparent;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.App-Card_Information button:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}

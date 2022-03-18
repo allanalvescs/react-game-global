@@ -1,0 +1,137 @@
+@media only screen and (max-width: 955px) {
+  .App .App-header {
+    padding: 10px;
+  }
+  .App-header .logo h1 {
+    font-size: 2rem;
+  }
+
+  .App-Main .container {
+    flex-direction: column;
+  }
+  .App-Main .container .App-Card_Information {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .App .container_features {
+    height: 1900px;
+  }
+  .App .container_features h2 {
+    font-size: 2rem;
+  }
+  .App .container_features figure {
+    width: 220px;
+    height: 280px;
+  }
+  .App .container_features .container_Cards div {
+    flex-direction: column;
+  }
+  .App .container_features .App-Card_Information h2 {
+    font-size: 2rem;
+  }
+  .App .container_features .App-Card_Information p {
+    line-height: 30px;
+    font-size: 1.1rem;
+  }
+  .App-Main .container_MoreGames {
+    height: 1000px;
+  }
+
+  .App-Main .container_MoreGames {
+    height: 1980px;
+    background-position-x: -1700px;
+  }
+  .App-Main .container_MoreGames div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .App-Main .container_MoreGames .App-CardGame {
+    margin-bottom: 20px;
+  }
+
+
+  .App-footer .form_subscribe h3{
+    font-size: 2rem;
+  }
+  .App-footer .form_subscribe p {
+    font-size: 1.2rem;
+  }
+  .App-footer .form_subscribe input{
+    height: 30px;
+  }
+  .App-footer .form_subscribe input::placeholder{
+    font-size: 1.2rem;
+  }
+  .App-footer .container_credit {
+    flex-direction: column;
+  }
+  .App-footer .container_credit article {
+    width: 300px;
+    height: 100%;
+  }
+  .App-footer .container_credit article h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .App-footer .container_credit article p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .App-footer .container_credit .container_credit-List {
+    flex-direction: column;
+  }
+  .App-footer .container_credit .container_credit-List h4 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .App-footer .container_credit .container_credit-List ul {
+    margin-bottom: 15px;
+  }
+  .App-footer .container_credit .container_credit-List ul li {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1210px) {
+  .App {
+    background-position-x: -400px;
+  }
+  .App-navegation {
+    justify-content: flex-end;
+  }
+  .App-navegation .main-Menu {
+    display: none;
+  }
+
+  .container .App-Card_Information h2 {
+    font-size: 2rem;
+  }
+  .container .App-Card_Information p {
+    font-size: 1.4rem;
+    line-height: 30px;
+  }
+
+  .container_features .App-Card_Information h2 {
+    font-size: 2rem;
+  }
+
+  .container_features .App-Card_Information p {
+    font-size: 1.4rem;
+  }
+
+  .container_features figure {
+    width: 420px;
+    height: 380px;
+  }
+  .container_MoreGames .App-CardGame {
+    width: 300px;
+  }
+  .container_MoreGames .App-CardGame div {
+    width: 270px;
+    height: 300px;
+  }
+  .container_MoreGames .App-CardGame p {
+    font-size: 1.1rem;
+  }
+}

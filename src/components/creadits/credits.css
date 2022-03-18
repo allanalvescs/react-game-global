@@ -1,0 +1,50 @@
+.container_credit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.container_credit article {
+  width: 25%;
+}
+.container_credit article h3 {
+  color: #00ffff;
+  font-size: 1.9rem;
+  text-align: left;
+}
+.container_credit article p {
+  color: #999999;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.container_credit-List {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.container_credit-List ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.container_credit-List ul h4 {
+  font-size: 1.9rem;
+  color: #00ffff;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.container_credit-List ul li {
+  color: #999999;
+  font-size: 1.2rem;
+}
+.container_credit-List ul:nth-child(2)  li:hover {
+  cursor: pointer;
+  color: #00ffff;
+}
+.container_credit-List ul:nth-child(3)  li:hover{
+   cursor: pointer;
+  color: #00ffff;
+}

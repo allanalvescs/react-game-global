@@ -1,0 +1,69 @@
+.App-CardGame {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #0e112c;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.App-CardGame div {
+  background-image: url(../../img/backMoreGames.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 380px;
+  height: 280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.App-CardGame div figure {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 3px solid #ffff;
+  filter: brightness(1);
+}
+.App-CardGame div h2 {
+  color: #ffff;
+  font-size: 2.2rem;
+  margin: 5px;
+}
+.App-CardGame div figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.App-CardGame div figcaption {
+  margin: 10px;
+  color: #afafaf;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.App-CardGame p {
+  width: 280px;
+  color: #999999;
+  font-size: 1.5rem;
+  margin: 10px auto;
+  text-align: center;
+}
+.App-CardGame button {
+  background-color: #00f7ff;
+  color: #000;
+  font-size: 1.1rem;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  border: transparent;
+  text-transform: uppercase;
+  margin: 15px auto;
+}
+
+.App-CardGame button:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}

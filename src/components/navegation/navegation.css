@@ -1,0 +1,32 @@
+.App-navegation {
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.main-Menu {
+  width: 550px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  margin:  0 15px;
+}
+.main-Menu li {
+  font-size: 1.4rem;
+  color: #000000fa;
+  font-weight: bold;
+}
+
+.App-navegation figure {
+  background-color: #00ffff;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App-navegation figure img {
+  width: 30px;
+}
