@@ -1,0 +1,66 @@
+.container_Chat {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 77%;
+  bottom: 0%;
+}
+.btn_chat {
+  height: 60px;
+  padding: 10px;
+  background-color: #03d2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.btn_chat:hover {
+  cursor: pointer;
+  filter: brightness(1.5);
+}
+.container_Chat svg {
+  margin: 0px 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.container_Chat .box {
+  background-color: #e1e1e1;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container_message {
+  display: flex;
+  position: relative;
+  top: 11%;
+  width: 100%;
+}
+.container_message textarea {
+  height: 43px;
+  width: 80%;
+  border: none;
+}
+.container_message button {
+  width: 20%;
+  border: none;
+  background-color: #03d2f7;
+  cursor: pointer;
+  text-align: center;
+}
+
+.chat {
+  height: 76%;
+  overflow-y: scroll;
+}
+
+.chat p {
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  width: 300px;
+  padding: 15px;
+}

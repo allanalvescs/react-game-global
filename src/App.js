@@ -8,6 +8,7 @@ import CardInformation from './components/cardInformation';
 import backFeature from './img/backFeature.png';
 import Subscribe from './components/subscribe';
 import Credit from './components/creadits';
+import Chat from './components/chatComponet'
 
 import Games from "./models/games";
 
@@ -93,6 +94,7 @@ function App() {
             humans."/>
           </div>
         </section>
+        <Chat />
       </main>
       <footer className="App-footer">
         <Subscribe />

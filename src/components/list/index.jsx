@@ -1,12 +1,10 @@
-function List(props) {
+function List({ list, classname, title }) {
   return (
-    <ul>
-      <h4>{props.title}</h4>
-
-      <li>{props.item1}</li>
-      <li>{props.item2}</li>
-      <li>{props.item3}</li>
-      <li>{props.item4}</li>
+    <ul className={classname}>
+      <h4>{title}</h4>
+      {list.map((value, index) => {
+        return <li key={index}>{value}</li>;
+      })}
     </ul>
   );
 }

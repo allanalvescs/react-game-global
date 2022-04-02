@@ -3,6 +3,16 @@ import Text from "../texts";
 import List from "../list";
 
 function Credit() {
+  const itensCredics = {
+    quickMenu: ["Home", "Games", "Company", "Careers", "Contact"],
+    contact: [
+      "500 Terry Francois street",
+      "San Francisco CA 94182",
+      "infor@myself.com",
+      "tel: 123-456-124",
+    ],
+    socials: ["Facebook", "Instagram", "Linkedin", "GitHub"],
+  };
   return (
     <div className="container_credit">
       <article>
@@ -14,27 +24,9 @@ function Credit() {
         />
       </article>
       <div className="container_credit-List">
-        <List
-          title="CONTACT"
-          item1="500 Terry Francois Street"
-          item2="San Francisco, CA 94158"
-          item3="info@mysite.com"
-          item4="Tel: 123-456-7890"
-        />
-        <List
-          title="QUICK MENU"
-          item1="Games"
-          item2="Company"
-          item3="Carrers"
-          item4="Contact"
-        />
-        <List
-          title="SOCIALS    "
-          item1="Facebook"
-          item2="Instagram"
-          item3="Linkedin"
-          item4="Github"
-        />
+        <List list={itensCredics.contact} title="Contact" classname={null} />
+        <List list={itensCredics.quickMenu} title="Quick Menu"classname={null}/>
+        <List list={itensCredics.socials} title="Socials" classname={null} />
       </div>
     </div>
   );

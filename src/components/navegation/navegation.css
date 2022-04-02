@@ -5,18 +5,22 @@
   justify-content: flex-end;
 }
 .main-Menu {
-  width: 550px;
+  width: 0px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: #ffffff;
   padding: 15px;
   border-radius: 10px;
-  margin:  0 15px;
+  margin: 0 15px;
+  animation: slip 1s forwards ease-in-out;
+  opacity: 0;
 }
 .main-Menu li {
   font-size: 1.4rem;
   color: #000000fa;
   font-weight: bold;
+  text-align: center;
 }
 
 .App-navegation figure {
@@ -26,7 +30,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .App-navegation figure img {
   width: 30px;
+}
+
+@keyframes slip {
+  0% {
+    width: 0px;
+    opacity: 0;
+  }
+
+  100% {
+    width: 550px;
+    opacity: 1;
+  }
 }

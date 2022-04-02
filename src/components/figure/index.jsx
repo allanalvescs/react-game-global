@@ -1,7 +1,7 @@
-function Image(props) {
+function Image({ path, descripition, func }) {
   return (
     <figure>
-      <img src={props.path} alt={props.descripition}/>
+      <img src={path} alt={descripition} onClick={() => func} />
     </figure>
   );
 }
